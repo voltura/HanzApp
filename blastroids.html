@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=9">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+
+    <title>Blastroids</title>
+
+    <link rel="stylesheet" href="blastroids.css" type="text/css" media="screen" charset="utf-8">
+    <script type="text/javascript" src="Box2dWeb-2.1.a.3.js"></script>
+    <script type="text/javascript" src="blastroids.js"></script>
+    <!-- script type="text/javascript" src="code.js"></script -->
+  </head>
+  <body>
+    <div id="resources">
+      <img id="background" src="res/space_background.jpg">
+      <img id="ship" src="res/ship.png">
+      <img id="explosion" src="res/explosion1_0022.png">
+      <img id="asteroid" src="res/asteroid.png">
+      <img id="bullet" src="res/fireball.png">
+      <div id='shot'>
+        <audio src="res/laser.ogg"></audio>
+        <audio src="res/laser.ogg"></audio>
+        <audio src="res/laser.ogg"></audio>
+        <audio src="res/laser.ogg"></audio>
+        <audio src="res/laser.ogg"></audio>
+      </div>
+      <div id="asteroid_explosion">
+        <audio src="res/bamf.ogg"></audio>
+        <audio src="res/bamf.ogg"></audio>
+        <audio src="res/bamf.ogg"></audio>
+        <audio src="res/bamf.ogg"></audio>
+        <audio src="res/bamf.ogg"></audio>
+      </div>
+      <div id="asteroid_last_explosion">
+        <audio src="res/ship_explode.ogg"></audio>
+        <audio src="res/ship_explode.ogg"></audio>
+        <audio src="res/ship_explode.ogg"></audio>
+        <audio src="res/ship_explode.ogg"></audio>
+        <audio src="res/ship_explode.ogg"></audio>
+      </div>
+      <div id="ship_explosion">
+        <audio src="res/rocketexpl.ogg"></audio>
+        <audio src="res/rocketexpl.ogg"></audio>
+        <audio src="res/rocketexpl.ogg"></audio>
+        <audio src="res/rocketexpl.ogg"></audio>
+        <audio src="res/rocketexpl.ogg"></audio>
+      </div>
+    </div>
+
+    <canvas id="canvas"></canvas>
+  </body>
+</html>
